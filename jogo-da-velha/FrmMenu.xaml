@@ -1,0 +1,18 @@
+﻿<Window x:Class="jogo_da_velha.FrmMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:jogo_da_velha"
+        mc:Ignorable="d"
+        Title="FrmMenu" Height="386" Width="382">
+    <Grid Background="#FF8BADC7">
+        <TextBlock HorizontalAlignment="Left" Margin="99,83,0,0" TextWrapping="Wrap" Text="Nome Jogador X:" VerticalAlignment="Top" FontSize="22" FontFamily="Arial Rounded MT Bold" Height="29" Width="189"/>
+        <TextBox x:Name="txtNomeJogadorX" HorizontalAlignment="Left" Margin="62,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="263" FontSize="24" Background="#FF739AB7" Height="46"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Nome Jogador O:" VerticalAlignment="Top" FontSize="22" Margin="99,174,0,0" FontFamily="Arial Rounded MT Bold" Height="29" Width="189"/>
+        <TextBox x:Name="txtNomeJogadorO" HorizontalAlignment="Left" Margin="62,202,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="263" FontSize="24" Background="#FF739AB7" Height="46"/>
+        <Image x:Name="btnJogar" HorizontalAlignment="Left" Height="95" Margin="155,265,0,0" VerticalAlignment="Top" Width="96" Source="/botao-play.png" MouseDown="IniciarJogo"/>
+        <TextBlock HorizontalAlignment="Left" Margin="45,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="50" Width="315" FontFamily="Gill Sans Ultra Bold Condensed" FontSize="48"><Run Language="pt-br" Text="REGISTRO"/></TextBlock>
+
+    </Grid>
+</Window>

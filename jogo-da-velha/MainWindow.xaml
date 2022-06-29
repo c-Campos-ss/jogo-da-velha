@@ -1,0 +1,23 @@
+﻿<Window x:Class="jogo_da_velha.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:jogo_da_velha"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="386" Width="382">
+    <Grid Background="#FF8BADC7">
+        <TextBlock x:Name="txtInformaVezJogador" HorizontalAlignment="Center" Margin="0,32,0,0" TextWrapping="Wrap" Text="Jogador da vez: X" VerticalAlignment="Top" FontSize="22" Width="362" TextAlignment="Center" FontFamily="Arial Rounded MT Bold"/>
+        <Button x:Name="btnB1" Content="" HorizontalAlignment="Center" Margin="0,80,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" Click="SelecionarBtnB1" Background="#FF739AB7"/>
+        <Button x:Name="btnB2" Content="" HorizontalAlignment="Center" Margin="0,135,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" Click="SelecionarBtnB2" Background="#FF739AB7"/>
+        <Button x:Name="btnB3" Content="" HorizontalAlignment="Center" Margin="0,190,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" Click="SelecionarBtnB3" Background="#FF739AB7"/>
+        <Button x:Name="btnA1" Content="" HorizontalAlignment="Center" Margin="-110,79,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" Click="SelecionarBtnA1" Background="#FF739AB7"/>
+        <Button x:Name="btnA2" Content="" HorizontalAlignment="Center" Margin="-110,134,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" Click="SelecionarBtnA2" Background="#FF739AB7"/>
+        <Button x:Name="btnA3" Content="" HorizontalAlignment="Center" Margin="-110,190,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" Click="SelecionarBtnA3" Background="#FF739AB7"/>
+        <Button x:Name="btnC1" Content="" HorizontalAlignment="Center" Margin="110,80,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" Click="SelecionarBtnC1" Background="#FF739AB7"/>
+        <Button x:Name="btnC2" Content="" HorizontalAlignment="Center" Margin="110,135,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" Click="SelecionarBtnC2" Background="#FF739AB7"/>
+        <Button x:Name="btnC3" Content="" HorizontalAlignment="Center" Margin="110,191,0,0" VerticalAlignment="Top" Height="50" Width="50" FontSize="20" Click="SelecionarBtnC3" Background="#FF739AB7"/>
+        <TextBlock x:Name="txtResultadoVencedor" HorizontalAlignment="Center" Margin="0,263,0,0" TextWrapping="Wrap" Text="Jogador X ganhou!" VerticalAlignment="Top" FontSize="22" Width="362" TextAlignment="Center" FontFamily="Arial Rounded MT Bold" FontWeight="Bold"/>
+        <Button x:Name="btnNovoJogo" Content="NOVO JOGO" HorizontalAlignment="Center" Margin="0,307,0,0" VerticalAlignment="Top" Height="40" Width="186" Click="IniciarNovoJogo" Background="#FF739AB7" FontFamily="Arial Rounded MT Bold" FontWeight="Normal" FontSize="14" Visibility="Visible"/>
+    </Grid>
+</Window>
